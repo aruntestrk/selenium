@@ -11,7 +11,7 @@ public class GoogleHomePageTest {
 @Test
 
 	public void homePageTest() {
-	
+	// Set Driver Manager before creating driver instance
     WebDriverManager.chromedriver().setup();
 	WebDriver driver=new ChromeDriver();
 	driver.get("https://www.google.com/");
